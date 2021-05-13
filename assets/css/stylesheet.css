@@ -1,2 +1,20 @@
 
 
+body {
+    margin: 0;
+    background-color: rgb(182, 121, 182);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
