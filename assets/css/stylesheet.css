@@ -1,9 +1,12 @@
 
 
 body {
-    margin: 0;
-    background-color: rgb(182, 121, 182);
+    margin: 0 auto;
+    background-color: rgb(247, 234, 247);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 1040px;
+    justify-content:center;
+    align-items: center;
     
 }
 
@@ -13,6 +16,32 @@ nav {
 
 }
 
+#aboutme h3 {
+    font-size: 40px;
+    color:rgb(43, 10, 43);
+    
+
+}
+
+#aboutme img {
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+#aboutme article {
+    border: 8px solid rgb(43, 10, 43);
+    width: 500px;
+    padding: 20px;
+    
+}
 
 
 
