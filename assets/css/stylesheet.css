@@ -11,27 +11,29 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
-  background-color:rgb(75, 6, 116);
+  background-color: rgb(75, 6, 116);
   height: 30px;
-  
 }
 
 nav a {
-    color: lavender;
+  color: lavender;
 }
 
 h1 {
-    color: rgb(75, 6, 116);
-    font-size: 44px;
+  color: rgb(75, 6, 116);
+  font-size: 44px;
+  padding: 16px;
 }
 
 h2 {
-    color: rgb(75, 6, 116);
+  color: rgb(75, 6, 116);
+  padding: 16px;
+
 }
 
 #aboutme h3 {
   font-size: 40px;
-  color: rgb(75, 6, 116)
+  color: rgb(75, 6, 116);
 }
 
 #aboutme img {
@@ -44,19 +46,19 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  color: rgb(75, 6, 116)
+  color: rgb(75, 6, 116);
 }
 
 #aboutme article {
   border: 8px solid rgb(43, 10, 43);
   width: 500px;
   padding: 20px;
-  color: rgb(75, 6, 116)
+  color: rgb(75, 6, 116);
 }
 
 .projects-header {
   position: relative;
-  color: rgb(75, 6, 116)
+  color: rgb(75, 6, 116);
 }
 
 .projects h3 {
@@ -65,7 +67,7 @@ h2 {
   font-size: 40px;
   padding: 70px;
   text-align: center;
-  color: rgb(75, 6, 116)
+  color: rgb(75, 6, 116);
 }
 
 .projects article {
@@ -87,35 +89,32 @@ h2 {
 }
 
 .contactme h3 {
-    font-size: 40px;
-    color: rgb(75, 6, 116)
+  font-size: 40px;
+  color: rgb(75, 6, 116);
 }
 .contactme {
-
-margin-top:20px;
-background-color:rgb(75, 6, 116);
-
+  margin-top: 20px;
+  background-color: rgb(75, 6, 116);
 }
 
 .contactme h3 {
-    color: lavender;
+  color: lavender;
 }
 
 .contactme address {
- display: flex;
+  display: flex;
   justify-content: space-evenly;
   font-size: 20px;
-  
 }
 .contactme address a {
-    color: lavender;
-    margin-bottom: 40px;
+  color: lavender;
+  margin-bottom: 40px;
 }
 
 footer {
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 
 /* makes the page responsive and better for viewing on smaller screens */
@@ -123,11 +122,13 @@ footer {
   nav {
     display: INLINE;
     justify-content: space-between;
+    width: 100%;
   }
 
   header,
   h1,
   h2 {
+    width: 100%;
     text-align: center;
   }
 
@@ -143,10 +144,9 @@ footer {
     margin: 0 auto;
     padding: 8px;
   }
+
   #aboutme img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   .large-project,
   .small-projects {
