@@ -121,8 +121,7 @@ footer {
 
 /* makes the page responsive and better for viewing on smaller screens */
 @media only screen and (max-width: 768px) {
-  nav,
-  .contactme address a {
+  nav {
     display: inline;
     width: 100%;
   }
@@ -149,17 +148,29 @@ footer {
 
   #aboutme img {
     display: flex;
-
     justify-content: flex-start;
   }
-  .large-project,
-  .small-projects {
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+
+  .large-project a img {
+      width: 50%;    
   }
+
+  .small-projects a img{
+    width: 25%;
+    height: 25%;
+  }
+
+
 
   .projects-header h3 {
     display: none;
+  }
+
+  .contactme {
+    width: 50%;
+  }
+
+  footer {
+      float: left;
   }
 }
