@@ -7,6 +7,7 @@ body {
   align-items: center;
 }
 
+/* displays navigation bar spaced evenly at top of page */
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -28,7 +29,6 @@ h1 {
 h2 {
   color: rgb(75, 6, 116);
   padding: 16px;
-
 }
 
 #aboutme h3 {
@@ -36,6 +36,8 @@ h2 {
   color: rgb(75, 6, 116);
 }
 
+
+/* rounds image and gives space around */
 #aboutme img {
   border-radius: 100%;
   margin-left: 20px;
@@ -49,6 +51,8 @@ h2 {
   color: rgb(75, 6, 116);
 }
 
+
+/* creates a box for the about me paragraphs */
 #aboutme article {
   border: 8px solid rgb(43, 10, 43);
   width: 500px;

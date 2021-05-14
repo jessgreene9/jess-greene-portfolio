@@ -28,7 +28,7 @@ This webpage is responsive and will adjust to a smaller view-point for readabili
 ## Screenshots
 
 
-<img src="./">
+<img src="./assets/images/portfolio-screenshot.png">
 
 
 
