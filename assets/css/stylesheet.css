@@ -1,129 +1,124 @@
-
-
 body {
-    margin: 0 auto;
-    background-color: rgb(247, 234, 247);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 100vh;
-    justify-content:center;
-    align-items: center;
-    
+  margin: 0 auto;
+  background-color: rgb(247, 234, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1040px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
 }
 
 #aboutme h3 {
-    font-size: 40px;
-    color:rgb(43, 10, 43);
-    
-
+  font-size: 40px;
+  color: rgb(43, 10, 43);
 }
 
 #aboutme img {
-    border-radius: 100%;
-    margin-left: 20px;
-    margin-top: 40px;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-top: 40px;
 }
 
 #aboutme {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 #aboutme article {
-    border: 8px solid rgb(43, 10, 43);
-    width: 500px;
-    padding: 20px;
-    
+  border: 8px solid rgb(43, 10, 43);
+  width: 500px;
+  padding: 20px;
 }
 
 .projects-header {
-    position: relative;
+  position: relative;
 }
 
 .projects h3 {
-    writing-mode: vertical-rl;
-text-orientation: upright;
-    font-size: 40px;
-    padding: 70px;
-    text-align: center;
-    
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 40px;
+  padding: 70px;
+  text-align: center;
 }
 
 .projects article {
-    border: 8px solid rgb(43, 10, 43);
-    width: 700px;
-    padding: 10px;
-    margin-top: 20px;
-    display: inline-block;
-    
-
+  border: 8px solid rgb(43, 10, 43);
+  width: 700px;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .projects {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .small-projects {
-    padding: 2.2px;
+  padding: 2.2px;
+}
+
+.contactme h3 {
+    font-size: 40px;
+}
+.contactme {
+border: 8px solid rgb(43, 10, 43);
+margin-top:20px;
+}
+
+.contactme address {
+ display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
 }
 
 
-
+/* makes the page responsive and better for viewing on smaller screens */
 @media only screen and (max-width: 768px) {
+  nav {
+    display: INLINE;
+    justify-content: space-between;
+  }
 
-    nav {
-        display: INLINE;
-        justify-content:space-between
-    }
+  header,
+  h1,
+  h2 {
+    text-align: center;
+  }
 
-    header, h1, h2{
-       
-        text-align: center;
-    }
-    
-    #aboutme,
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-        flex: 0 50%;
-        width:100%;
-        flex-direction: column;
-        align-items: flex-start;
-        box-sizing: border-box;
-        margin: 0 auto;
-        padding: 8px;
-    }
-    #aboutme img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  
+  #aboutme,
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+  }
+  #aboutme img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .large-project,
+  .small-projects {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
 
-    }
-    .large-project,
-    .small-projects {
-        overflow: hidden;
-    }
+  .projects-header h3 {
+    display: none;
+  }
 }
-
-
-    @media only screen and (max-width: 980px) {
-        
-
-
-
-
-
-
-
-
