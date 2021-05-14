@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background-color: rgb(247, 234, 247);
+  background-color: lavender;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 1040px;
   justify-content: center;
@@ -11,11 +11,27 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
+  background-color:rgb(75, 6, 116);
+  height: 30px;
+  
+}
+
+nav a {
+    color: lavender;
+}
+
+h1 {
+    color: rgb(75, 6, 116);
+    font-size: 44px;
+}
+
+h2 {
+    color: rgb(75, 6, 116);
 }
 
 #aboutme h3 {
   font-size: 40px;
-  color: rgb(43, 10, 43);
+  color: rgb(75, 6, 116)
 }
 
 #aboutme img {
@@ -28,16 +44,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  color: rgb(75, 6, 116)
 }
 
 #aboutme article {
   border: 8px solid rgb(43, 10, 43);
   width: 500px;
   padding: 20px;
+  color: rgb(75, 6, 116)
 }
 
 .projects-header {
   position: relative;
+  color: rgb(75, 6, 116)
 }
 
 .projects h3 {
@@ -46,6 +65,7 @@ nav {
   font-size: 40px;
   padding: 70px;
   text-align: center;
+  color: rgb(75, 6, 116)
 }
 
 .projects article {
@@ -68,18 +88,35 @@ nav {
 
 .contactme h3 {
     font-size: 40px;
+    color: rgb(75, 6, 116)
 }
 .contactme {
-border: 8px solid rgb(43, 10, 43);
+
 margin-top:20px;
+background-color:rgb(75, 6, 116);
+
+}
+
+.contactme h3 {
+    color: lavender;
 }
 
 .contactme address {
  display: flex;
   justify-content: space-evenly;
   font-size: 20px;
+  
+}
+.contactme address a {
+    color: lavender;
+    margin-bottom: 40px;
 }
 
+footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
 
 /* makes the page responsive and better for viewing on smaller screens */
 @media only screen and (max-width: 768px) {
