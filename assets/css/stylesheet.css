@@ -36,7 +36,6 @@ h2 {
   color: rgb(75, 6, 116);
 }
 
-
 /* rounds image and gives space around */
 #aboutme img {
   border-radius: 100%;
@@ -50,7 +49,6 @@ h2 {
   align-items: flex-start;
   color: rgb(75, 6, 116);
 }
-
 
 /* creates a box for the about me paragraphs */
 #aboutme article {
@@ -123,17 +121,17 @@ footer {
 
 /* makes the page responsive and better for viewing on smaller screens */
 @media only screen and (max-width: 768px) {
-  nav {
-    display: INLINE;
-    justify-content: space-between;
+  nav,
+  .contactme address a {
+    display: inline;
     width: 100%;
   }
 
   header,
   h1,
   h2 {
+    justify-content: flex-start;
     width: 100%;
-    text-align: center;
   }
 
   #aboutme,
@@ -150,7 +148,9 @@ footer {
   }
 
   #aboutme img {
-    display: block;
+    display: flex;
+
+    justify-content: flex-start;
   }
   .large-project,
   .small-projects {
