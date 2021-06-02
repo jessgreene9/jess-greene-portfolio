@@ -5,6 +5,7 @@ body {
   width: 1040px;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* displays navigation bar spaced evenly at top of page */
@@ -86,9 +87,7 @@ h2 {
   align-items: flex-start;
 }
 
-.small-projects {
-  padding: 2.2px;
-}
+
 
 .contactme h3 {
   font-size: 40px;
@@ -152,13 +151,14 @@ footer {
   }
 
   .large-project a img {
-      width: 50%;    
+      width: 100%;
+      max-width: 600px;    
   }
-
-  .small-projects a img{
+/* 
+  .small-projects div img{
     width: 25%;
     height: 25%;
-  }
+  } */
 
 
 
@@ -173,4 +173,48 @@ footer {
   footer {
       float: left;
   }
+  .large-project, .small-projects {
+    max-width:100%;
+  }
+}
+
+.large-project, .small-projects  {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width:100%;}
+
+.project-title {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background-color:lightgray;
+  color: rgb(75, 6, 116);
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.project-github {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color:lightgray;
+  color: rgb(75, 6, 116);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.small-projects {
+  display: flex;
+}
+
+.dayplanner {
+position: relative;
+  display: inline-block;
+}
+
+.weather {
+position: relative;
+  display: inline-block;
 }
