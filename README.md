@@ -1,5 +1,5 @@
 # jess-greene-portfolio
-A portfolio of work showcasing my skills.
+An updated portfolio of work showcasing my skills.
 
 
 
@@ -19,7 +19,9 @@ https://jessgreene9.github.io/jess-greene-portfolio/
 
 This is a professional portfolio highlighting the skills of the web developer's background. Within the portfolio, one will find background information, projects the developer has completed, and contact information. A recent picture and the developer's name is included. 
 
-This site contains user friendly anchor links in the navigation bar. When one clicks on the links at the top of the page, they are brought to that corresponding section on the page. When the images in the "projects" section are clicked, a new tab will open deploying that web application. 
+This site contains user friendly anchor links in the navigation bar. When one clicks on the links at the top of the page, they are brought to that corresponding section on the page. Also included in this section is an easily downloadable PDF file containing the developer's resume. A link to their LinkedIn profile is also included. 
+
+The site includes 3 recent projects with links to both the deployed site as well as the Github repository. 
 
 This webpage is responsive and will adjust to a smaller view-point for readability. The contact links at the bottom of the page will allow a potential employer to access the developer's Github repositories as well as be able to click the email link and automatically be brought to a new email message.
 
