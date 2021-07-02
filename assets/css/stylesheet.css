@@ -2,6 +2,15 @@ body {
   background-color: rgba(192, 192, 192, 0.856);
 }
 
+.navbar {
+  background-color: rgba(192, 192, 192, 0.856);
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  display:flex;
+  justify-content:space-between;
+}
+
 .title {
   font-size: 80px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,14 +51,27 @@ body {
   margin: 0 60px 0 0;
 }
 
+#projects{
+  max-width: 700px;
+  
+  
+}
+
+
+
 .card {
   background-color: rgba(192, 192, 192, 0.856);
 }
 
 footer {
   font-weight: bold;
+  background-color: rgba(192, 192, 192, 0.856);
   text-align: center;
   padding: 10px;
+}
+
+.footer {
+  background-color: rgba(192, 192, 192, 0.856);
 }
 .project-title {
   bottom: 8px;

@@ -30,7 +30,7 @@ This webpage is responsive and will adjust to a smaller view-point for readabili
 ## Screenshots
 
 
-<img src="./assets/images/screenshot-full.png">
+<img src="./assets/images/screenshotfull.png">
 
 
 
