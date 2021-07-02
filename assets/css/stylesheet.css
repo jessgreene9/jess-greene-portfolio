@@ -1,15 +1,16 @@
-
+body {
+  background-color: rgba(192, 192, 192, 0.856);
+}
 
 .title {
   font-size: 80px;
-  padding:80px 80px 0 0;
-  
- 
-  
-  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 80px 80px 0 0;
 
+  color: white;
 }
 .subtitle {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans;
   font-size: 30px;
   font-weight: bold;
   padding: 0 80px 80px 0;
@@ -18,7 +19,7 @@
 .hero {
   height: 400px;
   width: 100%;
-  background-image:  url("../images/hero.jpg");
+  background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,12 +30,10 @@
   width: 250px;
   height: 250px;
   margin: 20px 50px;
-  
 }
 
 #living {
-  margin: 0 50px 10px ;
-
+  margin: 0 50px 10px;
 }
 #weather {
   margin: 0 0 0 60px;
@@ -43,39 +42,32 @@
   margin: 0 60px 0 0;
 }
 
-
-
-
-
-.projects {
-
+.card {
+  background-color: rgba(192, 192, 192, 0.856);
 }
-
-
 
 footer {
   font-weight: bold;
   text-align: center;
   padding: 10px;
 }
- .project-title {
+.project-title {
   bottom: 8px;
   left: 8px;
- 
+
   color: rgb(75, 6, 116);
   font-weight: bold;
   font-size: 16px;
-
 }
 
- .project-github {
+.project-github {
   bottom: 8px;
   right: 8px;
- 
+
   color: rgb(75, 6, 116);
   font-weight: bold;
   font-size: 16px;
-} 
+}
 /* .projects article {
   border: 8px solid rgb(43, 10, 43);
   width: 700px;
@@ -83,28 +75,17 @@ footer {
   margin-top: 20px;
   display: inline-block;
 } */
-
-.projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.large-project, .small-projects  {
-  position: relative;
+#about {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
   text-align: center;
-  color: white;
-  max-width:100%;}
-  .small-projects {
-    display: flex;
-  }
-  
-  .dayplanner {
-  position: relative;
-    display: inline-block;
-  }
-  
-  .weather {
-  position: relative;
-    display: inline-block;
-  }
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-indent: 2.0em;
+}
+
 
