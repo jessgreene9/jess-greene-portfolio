@@ -1,93 +1,47 @@
-body {
-  margin: 0 auto;
-  background-color: lavender;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 1040px;
-  justify-content: center;
-  align-items: center;
+
+
+.title {
+  font-size: 80px;
+  padding:80px 80px 0 0;
+  
+ 
+  
+  color: white;
+
+}
+.subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 80px 80px 0;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  background-image:  url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#headshot {
+  width: 250px;
+  height: 250px;
+  margin: 20px 50px;
   
 }
 
-/* displays navigation bar spaced evenly at top of page */
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 20px;
-  background-color: rgb(75, 6, 116);
-  height: 30px;
+#living {
+  margin: 0 50px 10px ;
+
 }
-
-nav a {
-  color: lavender;
+#weather {
+  margin: 0 0 0 60px;
 }
-
-h1 {
-  color: rgb(75, 6, 116);
-  font-size: 44px;
-  padding: 16px;
+#trails {
+  margin: 0 60px 0 0;
 }
-
-h2 {
-  color: rgb(75, 6, 116);
-  padding: 16px;
-}
-
-#aboutme h3 {
-  font-size: 40px;
-  color: rgb(75, 6, 116);
-}
-
-/* rounds image and gives space around */
-#aboutme img {
-  border-radius: 100%;
-  margin-left: 20px;
-  margin-top: 40px;
-}
-
-#aboutme {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  color: rgb(75, 6, 116);
-}
-
-/* creates a box for the about me paragraphs */
-#aboutme article {
-  border: 8px solid rgb(43, 10, 43);
-  width: 500px;
-  padding: 20px;
-  color: rgb(75, 6, 116);
-}
-
-.projects-header {
-  position: relative;
-  color: rgb(75, 6, 116);
-}
-
-.projects h3 {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 40px;
-  padding: 70px;
-  text-align: center;
-  color: rgb(75, 6, 116);
-}
-
-.projects article {
-  border: 8px solid rgb(43, 10, 43);
-  width: 700px;
-  padding: 10px;
-  margin-top: 20px;
-  display: inline-block;
-}
-
-.projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-
 
 .contactme h3 {
   font-size: 40px;
@@ -117,75 +71,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
-
-/* makes the page responsive and better for viewing on smaller screens */
-@media only screen and (max-width: 768px) {
-  nav {
-    display: inline;
-    width: 100%;
-  }
-
-  header,
-  h1,
-  h2 {
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  #aboutme,
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 50%;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 8px;
-  }
-
-  #aboutme img {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .large-project a img {
-      width: 100%;
-      max-width: 600px;    
-  }
-/* 
-  .small-projects div img{
-    width: 25%;
-    height: 25%;
-  } */
-
-
-
-  .projects-header h3 {
-    display: none;
-  }
-
-  .contactme {
-    width: 50%;
-  }
-
-  footer {
-      float: left;
-  }
-  .large-project, .small-projects {
-    max-width:100%;
-  }
-}
-
-.large-project, .small-projects  {
-  position: relative;
-  text-align: center;
-  color: white;
-  max-width:100%;}
-
 .project-title {
-  position: absolute;
   bottom: 8px;
   left: 8px;
   background-color:lightgray;
@@ -196,25 +82,10 @@ footer {
 }
 
 .project-github {
-  position: absolute;
   bottom: 8px;
   right: 8px;
   background-color:lightgray;
   color: rgb(75, 6, 116);
   font-weight: bold;
   font-size: 16px;
-}
-
-.small-projects {
-  display: flex;
-}
-
-.dayplanner {
-position: relative;
-  display: inline-block;
-}
-
-.weather {
-position: relative;
-  display: inline-block;
 }

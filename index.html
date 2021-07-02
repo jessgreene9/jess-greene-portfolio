@@ -6,104 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jess Greene Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
 </head>
 
-<body>
-    <!-- nav bar with links to rest of page and link to Linkedin -->
-    <header>
-        <nav>
-            <a href="#aboutme">About Me</a>
-            <a href="#work">Projects</a>
-            <a href="#contact">Contact Me</a>
-            <a href="./assets/resume/Jess Greene RESUME2.0 2021.pdf">Resume</a>
-            <a href="https://www.linkedin.com/in/jess-greene-241139211" target="_blank"> LinkedIn</a>
-        </nav>
-        <h1>Jess Greene</h1>
-    </header>
-    <section>
-        <h2>Coding Boot Camp Student </h2>
-    </section>
-    <main class="content">
+
+<!-- nav bar with links to rest of page and link to Linkedin -->
+
+<nav class="navbar has-shadow">
+    <div class="navbar-brand">
+        
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item is-size-6 px-4" href="#aboutme">About Me</a>
+                <a class="navbar-item is-size-6 px-4" href="#work">Projects</a>
+                <a class="navbar-item is-size-6 px-4" href="#contact">Contact Me</a>
+                <a class="navbar-item is-size-6 px-4" href="./assets/resume/Jess Greene RESUME2.0 2021.pdf">Resume</a>
+                <a class="navbar-item is-size-6 px-4" href="https://www.linkedin.com/in/jess-greene-241139211"
+                    target="_blank"> LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="inner">
+        <h1 class="title has-text-centered weight-bold">Jess Greene</h1>
+    </div>
+    <h2 class="subtitle has-text-centered weight-bold ">Coding Boot Camp Student </h2>
+    <div class="class is-overlay ">
+
+    </div>
+</header>
+
+<section class="section ">
+
+    <div class="columns is-mobile is-centered is-vcentered">
         <!-- About me container -->
-        <section id="aboutme">
+        <div class="column">
+            <h1 id="about">About Me</h1>
+            <p>
 
-            <img src="./assets/images/Headshot.jpg" alt="Headshot" />
-            <article>
-                <h3>About Me</h3>
-                <p>
+                I currently live in Wilmington, North Carolina. I graduated from the
+                University of North Carolina at Wilmington in 2007 with an English degree
+                and a Teacher's License. Over the years, I have discovered that I am incredibly
+                interested in computer technology. This has led me to enrolling in the
+                Coding Boot Camp program at the University of North Carolina at Charlotte.
+            </p>
+            <p>
+                I intend to use the skills that I have obtained in my various roles to assist
+                me in my venture to change my career path into something I truly love
+                and enjoy. My goal is to continue learning after the program has
+                completed and to build on skills learned in this course to create
+                a new and better future for myself.
+            </p>
+        </div>
+        <div class="column is-half">
+            <figure class="image">
+                <img class="is-rounded " id="headshot" src="./assets/images/Headshot.jpg" alt="Headshot" />
+            </figure>
+        </div>
+    </div>
 
-                    I currently live in Wilmington, North Carolina. I graduated from the
-                    University of North Carolina at Wilmington in 2007 with an English degree
-                    and a Teacher's License. Over the years, I have discovered that I am incredibly
-                    interested in computer technology. This has led me to enrolling in the
-                    Coding Boot Camp program at the University of North Carolina at Charlotte.
-                </p>
-                <p>
-                    I intend to use the skills that I have obtained in my various roles to assist
-                    me in my venture to change my career path into something I truly love
-                    and enjoy. My goal is to continue learning after the program has
-                    completed and to build on skills learned in this course to create
-                    a new and better future for myself.
-                </p>
-            </article>
-        </section>
 
-        <!-- projects container -->
-        <section id="work" class="projects">
+</section>
 
-            <article>
-                <!--contains first portfolio item sized larger-->
-                <div class="large-project">
-                    <div>
-                        <img src="./assets/images/living-in-motion.png" alt="Living in Motion" />
-                        <a href="https://jessgreene9.github.io/living-in-motion/" target="_blank">
-                            <div class="project-title">Living in Motion </div>
-                        </a>
-                        <a href="https://github.com/jessgreene9/living-in-motion/" target="_blank">
-                            <div class="project-github">View on Github </div>
-                        </a>
-                    </div>
-                </div>
-                <!--other portfolio images with links-->
-                <div class="small-projects">
-                <div class= "dayplanner">
-                    <img src="./assets/images/dayplanner.png" alt="Day Planner" />
-                    <a href="https://jessgreene9.github.io/day-planner/" target="_blank">
-                        <div class="project-title">Day Planner </div>
-                    </a>
-                    <a href="https://github.com/jessgreene9/day-planner" target="_blank">
-                        <div class="project-github">View on Github </div>
-                    </a>
-            
-                </div>
-                <div class="weather">
-                
-                    <img src="./assets/images/screenshot-weather2.png" alt="Weather Dashboard" />
-                    <a href="https://jessgreene9.github.io/weather-app/" target="_blank">
-                        <div class="project-title">Weather Dashboard </div></a>
-                        <a href="https://github.com/jessgreene9/weather-app/" target="_blank">
-                            <div class="project-github">View on Github </div></a>
-                
+<div class="columns" id="projects">
+    <div >
+        <div class="column project-title ">
+            <div class="card-image" id= "living">
+                <figure class="image">
+                    <img src="./assets/images/living-in-motion.png" alt="Living in motion" />
+                </figure>
+                <a class="is-overlay has-text-left" href="https://jessgreene9.github.io/living-in-motion/" target="_blank">
+                    <div class="project-title">Living in Motion </div>
+                </a>
+                <a class="is-overlay has-text-right" href="https://github.com/jessgreene9/living-in-motion/" target="_blank">
+                    <div class="project-github">View on Github </div>
+                </a>
             </div>
-                </div>
-            </article>
-            <div class="projects-header">
-                <h3>Projects</h3>
+        </div>
+        <div class="columns is-multiline">
+        <div class="column is-half">
+            <div class="card-image" id ="weather">
+                <figure class="image">
+                    <img src="./assets/images/screenshot-weather.png" alt="Weather Dashboard" />
+                </figure>
+                <a class="is-overlay has-text-left" href="https://jessgreene9.github.io/weather-app/" target="_blank">
+                    <div class="project-title">Weather Dashboard </div>
+                </a>
+                <a class="is-overlay has-text-right" href="https://github.com/jessgreene9/weather-app/" target="_blank">
+                    <div class="project-github">View on Github </div>
+                </a>
             </div>
-        </section>
+        </div>
+        <div class="column is-half">
+            <div class="card-image" id ="trails">
+                <figure class="image">
+                    <img src="./assets/images/screenshot3.png" alt="Trail Hound" />
+                </figure>
+                <a class="is-overlay has-text-left" href="https://western-nc-trail-app.herokuapp.com/" target="_blank">
+                    <div class="project-title">Trail Hound </div>
+                </a>
+                <a class="is-overlay has-text-right" href="https://github.com/amgaudet/trail-hiking-app" target="_blank">
+                    <div class="project-github">View on Github </div>
+                </a>
+            </div></div>
+        </div>
+        </div>
+    </div>
 
-        <!-- contact container -->
-        <section id="contact" class="contactme">
+
+    <footer class="footer">
+        <ul class="footer-menu">
             <h3>Contact Me</h3>
-            <address>
-                <a href="tel.7042424748">704.242.4748</a>
-                <a href="mailto: jess.greene9@gmail.com">jess.greene9@gmail.com</a>
-                <a href="https://github.com/jessgreene9" target="_blank">Github</a>
-            </address>
-        </section>
-        <footer>&copy Jess Greene 2021</footer>
-</body>
-</main>
+            <li>
+                <span>Email<a href="mailto: jess.greene9@gmail.com">jess.greene9@gmail.com</a></span>
+            </li>
+            <li>
+                <span>Phone Number<a href="tel.7042424748">704.242.4748</a></span>
+            </li>
+            <li id="connect">
+                <span ></i><a href="https://github.com/jessgreene9" target="_blank"></a></span>Github</a>
+            </li>
+        </ul>
+        <div id="copyright" class="row has-text-centered mt-6 pt-5">
+            &copy; Jess Greene 2021
+        </div>
+    </footer>
+    
 
-</html>
